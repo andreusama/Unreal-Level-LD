@@ -1461,3 +1461,337 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.30-09.49.23:061][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2023.05.30-09.49.23:090][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
 [2023.05.30-09.49.23:194][676]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.05.30-09.51.21:585][552]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2023.05.30-09.51.21:609][552]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2023.05.30-09.51.21:625][553]LogContentBrowser: Renaming the item being created (Deferred Item: Carpeta nueva).
+[2023.05.30-09.51.23:228][603]LogContentBrowser: Attempting asset rename: Carpeta nueva -> AI
+[2023.05.30-09.51.23:230][603]LogContentBrowser: End creating deferred item Carpeta nueva
+[2023.05.30-09.52.05:756][488]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn_Simple) ...
+[2023.05.30-09.52.29:182][488]LogSlate: Window 'Escoger Esqueleto' being destroyed
+[2023.05.30-09.52.29:199][488]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2023.05.30-09.52.29:215][488]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2023.05.30-09.52.29:248][490]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace1D).
+[2023.05.30-09.52.43:859][920]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> WalkBlendSpace1D
+[2023.05.30-09.52.43:866][920]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2023.05.30-09.52.48:824][ 53]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/AI/WalkBlendSpace1D.WalkBlendSpace1D
+[2023.05.30-09.52.48:998][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-09.52.49:132][ 53]LogStaticMesh: Display: Generando la malla estática Sphere_inversenormals...
+[2023.05.30-09.52.49:189][ 53]LogStaticMesh: Built static mesh [0.06s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2023.05.30-09.52.49:296][ 53]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2023.05.30-09.52.49:324][ 53]LogStaticMesh: Display: Generando la malla estática Floor_Mesh...
+[2023.05.30-09.52.49:326][ 53]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2023.05.30-09.52.49:466][ 53]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.30-09.52.50:741][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-09.52.50:830][ 53]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.30-09.52.50:910][ 53]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002403s (0.087009s overbudget)
+[2023.05.30-09.52.51:991][ 53]LogShaderCompilers: Display: ================================================
+[2023.05.30-09.52.51:991][ 53]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.30-09.52.51:991][ 53]LogShaderCompilers: Display: Total job queries 213, among them cache hits 32 (15.02%)
+[2023.05.30-09.52.51:991][ 53]LogShaderCompilers: Display: Tracking 177 distinct input hashes that result in 135 distinct outputs (76.27%)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: RAM used: 1.39 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.34%
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Shaders Compiled: 68
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Jobs assigned 68, completed 68 (100.00%)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Average time worker was idle: 256.75 s
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 1.43 s
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Job execution time: average 1.54 s, max 2.51 s
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Job life time (pending + execution): average 1.65 s, max 2.57
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.03 s
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Jobs were issued in 68 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Average processing rate: 3.40 jobs/sec
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Total thread time: 61.63 s
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Total thread preprocess time: 3.39 s
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Percentage time preprocessing: 5.50%
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Effective parallelization: 3.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 1.26 sec, max 1.95 sec, min 0.65 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   15 times, average 1.16 sec, max 1.49 sec, min 0.67 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    3 times, average 1.08 sec, max 1.31 sec, min 0.68 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   12 times, average 1.05 sec, max 1.34 sec, min 0.72 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled   12 times, average 0.64 sec, max 0.92 sec, min 0.41 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.75% of total time (compiled   15 times, average 1.26 sec, max 1.95 sec, min 0.65 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.14% of total time (compiled   15 times, average 1.16 sec, max 1.49 sec, min 0.67 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.46% of total time (compiled   12 times, average 1.05 sec, max 1.34 sec, min 0.72 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 12.38% of total time (compiled   12 times, average 0.64 sec, max 0.92 sec, min 0.41 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 5.26% of total time (compiled    3 times, average 1.08 sec, max 1.31 sec, min 0.68 sec)
+[2023.05.30-09.52.51:992][ 53]LogShaderCompilers: Display: ================================================
+[2023.05.30-09.52.52:038][ 53]LogSlate: Took 0.007476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.30-09.52.52:060][ 53]LogViewport: Scene viewport resized to 450x710, mode Windowed.
+[2023.05.30-09.52.52:091][ 53]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.30-09.53.24:021][518]LogViewport: Scene viewport resized to 521x710, mode Windowed.
+[2023.05.30-09.53.27:209][574]LogViewport: Scene viewport resized to 510x314, mode Windowed.
+[2023.05.30-09.53.31:873][617]LogViewport: Scene viewport resized to 1323x538, mode Windowed.
+[2023.05.30-09.53.54:641][ 52]LogViewport: Scene viewport resized to 510x314, mode Windowed.
+[2023.05.30-09.53.56:263][ 69]LogViewport: Scene viewport resized to 521x710, mode Windowed.
+[2023.05.30-09.55.59:292][642]LogViewport: Scene viewport resized to 516x710, mode Windowed.
+[2023.05.30-09.55.59:388][643]LogViewport: Scene viewport resized to 467x710, mode Windowed.
+[2023.05.30-09.55.59:456][644]LogViewport: Scene viewport resized to 441x710, mode Windowed.
+[2023.05.30-09.55.59:505][645]LogViewport: Scene viewport resized to 434x710, mode Windowed.
+[2023.05.30-09.55.59:563][646]LogViewport: Scene viewport resized to 424x710, mode Windowed.
+[2023.05.30-09.55.59:608][647]LogViewport: Scene viewport resized to 412x710, mode Windowed.
+[2023.05.30-09.55.59:660][648]LogViewport: Scene viewport resized to 399x710, mode Windowed.
+[2023.05.30-09.55.59:713][649]LogViewport: Scene viewport resized to 391x710, mode Windowed.
+[2023.05.30-09.55.59:763][650]LogViewport: Scene viewport resized to 384x710, mode Windowed.
+[2023.05.30-09.55.59:811][651]LogViewport: Scene viewport resized to 376x710, mode Windowed.
+[2023.05.30-09.56.38:551][969]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2023.05.30-09.56.38:640][969]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/FirstPersonMap_Auto2
+[2023.05.30-09.56.38:640][969]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/FirstPersonMap_Auto2792278D244B47C4167E8BEBADFA58CB2.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/Autosaves/Game/FirstPerson/Maps/FirstPersonMap_Auto2.umap'
+[2023.05.30-09.56.38:687][969]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01_Auto2
+[2023.05.30-09.56.38:687][969]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/R1GV431P5FDO08OFULRA01_Auto2776062DA450FAF4C5F7886B016D6391D.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01_Auto2.uasset'
+[2023.05.30-09.56.38:692][969]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.571
+[2023.05.30-09.56.38:692][969]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.571
+[2023.05.30-09.56.56:385][ 68]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2023.05.30-09.56.57:678][102]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.30-09.57.23:351][432]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2023.05.30-10.01.01:181][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-10.01.01:274][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/WalkBlendSpace1D" FILE="../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/WalkBlendSpace1D.uasset" SILENT=true
+[2023.05.30-10.01.01:283][231]LogSavePackage: Moving output files for package: /Game/AI/WalkBlendSpace1D
+[2023.05.30-10.01.01:283][231]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/WalkBlendSpace1D54E9CE1A468F250BAA1B81A0FECC487C.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/WalkBlendSpace1D.uasset'
+[2023.05.30-10.01.01:293][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 535 ms)
+[2023.05.30-10.01.01:617][231]AssetCheck: New page: Asset Save: WalkBlendSpace1D
+[2023.05.30-10.01.01:618][231]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/AI/WalkBlendSpace1D.WalkBlendSpace1D
+[2023.05.30-10.01.07:540][288]LogSlate: Window 'WalkBlendSpace1D' being destroyed
+[2023.05.30-10.01.07:593][288]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.01.07:597][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.01.07:785][288]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.01.07:785][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.01.36:772][477]LogSlate: Window 'Crear Blueprint de la animación' being destroyed
+[2023.05.30-10.01.36:780][477]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2023.05.30-10.01.36:789][477]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2023.05.30-10.01.36:806][478]LogContentBrowser: Renaming the item being created (Deferred Item: NewAnimBlueprint).
+[2023.05.30-10.01.43:870][667]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> AP_EnemyAI
+[2023.05.30-10.01.43:985][667]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2023.05.30-10.01.46:591][730]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/AI/AP_EnemyAI.AP_EnemyAI
+[2023.05.30-10.01.46:594][730]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.01.46:721][730]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.01.46:731][730]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.30-10.01.47:748][730]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.01.47:921][730]LogViewport: Scene viewport resized to 188x556, mode Windowed.
+[2023.05.30-10.01.55:316][849]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.30-10.01.56:191][871]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2023.05.30-10.02.41:975][341]BlueprintLog: New page: Compilar AP_EnemyAI
+[2023.05.30-10.02.42:274][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2023.05.30-10.02.45:575][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-10.02.45:708][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AP_EnemyAI" FILE="../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/AP_EnemyAI.uasset" SILENT=true
+[2023.05.30-10.02.45:719][412]LogSavePackage: Moving output files for package: /Game/AI/AP_EnemyAI
+[2023.05.30-10.02.45:719][412]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/AP_EnemyAI92269A47483F466ECF430A912D93C934.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/AP_EnemyAI.uasset'
+[2023.05.30-10.02.45:726][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 686 ms)
+[2023.05.30-10.02.45:733][412]AssetCheck: New page: Asset Save: AP_EnemyAI
+[2023.05.30-10.02.45:733][412]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/AI/AP_EnemyAI.AP_EnemyAI
+[2023.05.30-10.03.50:611][493]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-10.03.50:724][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AP_EnemyAI" FILE="../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/AP_EnemyAI.uasset" SILENT=true
+[2023.05.30-10.03.50:730][493]LogSavePackage: Moving output files for package: /Game/AI/AP_EnemyAI
+[2023.05.30-10.03.50:731][493]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/AP_EnemyAIA4BCCD9840FE5BCF87392AA19CC050FE.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/AP_EnemyAI.uasset'
+[2023.05.30-10.03.50:739][493]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 814 ms)
+[2023.05.30-10.03.50:745][493]AssetCheck: New page: Asset Save: AP_EnemyAI
+[2023.05.30-10.03.50:745][493]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/AI/AP_EnemyAI.AP_EnemyAI
+[2023.05.30-10.03.51:713][516]LogSlate: Window 'AP_EnemyAI' being destroyed
+[2023.05.30-10.03.51:735][516]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.03.51:735][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.03.51:771][516]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.03.51:771][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.03.51:836][516]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.03.51:836][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.04.03:908][837]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/AI/AP_EnemyAI.AP_EnemyAI
+[2023.05.30-10.04.03:909][837]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.04.03:953][837]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.04.03:974][837]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.30-10.04.04:623][837]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.04.04:744][837]LogViewport: Scene viewport resized to 188x556, mode Windowed.
+[2023.05.30-10.04.04:805][837]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.30-10.07.23:922][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-10.07.24:038][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AP_EnemyAI" FILE="../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/AP_EnemyAI.uasset" SILENT=true
+[2023.05.30-10.07.24:052][515]LogSavePackage: Moving output files for package: /Game/AI/AP_EnemyAI
+[2023.05.30-10.07.24:053][515]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/AP_EnemyAI88E564C34A6B87044E5BE08F86B10C3E.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/AP_EnemyAI.uasset'
+[2023.05.30-10.07.24:060][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 952 ms)
+[2023.05.30-10.07.24:068][515]AssetCheck: New page: Asset Save: AP_EnemyAI
+[2023.05.30-10.07.24:069][515]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/AI/AP_EnemyAI.AP_EnemyAI
+[2023.05.30-10.07.25:530][556]LogToolMenus: Warning: Menu 'AssetEditor.AnimationBlueprintEditor.MainMenu.Tools', item 'MakeStaticMesh', type not currently supported: 6
+[2023.05.30-10.07.32:139][736]LogToolMenus: Warning: Menu 'AssetEditor.AnimationBlueprintEditor.MainMenu.Tools', item 'MakeStaticMesh', type not currently supported: 6
+[2023.05.30-10.08.00:281][477]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.05.30-10.08.00:283][477]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.05.30-10.08.00:283][477]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.05.30-10.08.00:287][477]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.05.30-10.08.00:287][477]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.05.30-10.08.00:287][477]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.05.30-10.10.01:229][751]LogSlate: Window 'AP_EnemyAI' being destroyed
+[2023.05.30-10.10.01:262][751]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.10.01:262][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.10.01:305][751]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.10.01:306][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.10.01:379][751]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.10.01:379][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.10.04:595][823]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/AI/WalkBlendSpace1D.WalkBlendSpace1D
+[2023.05.30-10.10.04:596][823]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.10.04:746][823]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.30-10.10.04:958][823]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.10.05:149][823]LogViewport: Scene viewport resized to 376x710, mode Windowed.
+[2023.05.30-10.10.05:173][823]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.30-10.10.10:641][945]LogSlate: Window 'WalkBlendSpace1D' being destroyed
+[2023.05.30-10.10.10:645][945]LogSlate: Window 'WalkBlendSpace1D' being destroyed
+[2023.05.30-10.10.10:666][945]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.10.10:666][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.10.10:742][945]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.10.10:742][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.10.15:867][ 96]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/P_EnemyAI.P_EnemyAI
+[2023.05.30-10.10.15:868][ 96]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.10.47:845][ 88]LogSlate: Window 'P_EnemyAI' being destroyed
+[2023.05.30-10.10.47:885][ 88]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.10.47:885][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.11.00:500][465]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/AI/WalkBlendSpace1D.WalkBlendSpace1D
+[2023.05.30-10.11.00:501][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.11.00:548][465]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.30-10.11.00:751][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.11.00:917][465]LogViewport: Scene viewport resized to 376x710, mode Windowed.
+[2023.05.30-10.11.00:938][465]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.30-10.11.27:992][658]LogDerivedDataCache: C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.538 and deleted 0 files with total size 0 MiB. Scanned 4680 files in 4648 folders with total size 112 MiB.
+[2023.05.30-10.11.32:662][672]LogSlate: Window 'WalkBlendSpace1D' being destroyed
+[2023.05.30-10.11.32:690][672]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.11.32:690][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.11.32:768][672]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.11.32:768][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.11.48:168][843]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'No pudo encontrar el pincel 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.05.30-10.11.48:168][843]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'No pudo encontrar el pincel 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.05.30-10.11.49:295][866]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/P_EnemyAI.P_EnemyAI
+[2023.05.30-10.11.49:295][866]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.12.12:631][370]LogSlate: Window 'P_EnemyAI' being destroyed
+[2023.05.30-10.12.12:668][370]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.12.12:668][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.12.19:624][542]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/AI/AP_EnemyAI.AP_EnemyAI
+[2023.05.30-10.12.19:624][542]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.12.19:707][542]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.12.19:715][542]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.30-10.12.20:409][542]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.12.20:566][542]LogViewport: Scene viewport resized to 188x556, mode Windowed.
+[2023.05.30-10.12.20:609][542]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.30-10.13.06:124][854]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2023.05.30-10.13.06:135][854]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.129
+[2023.05.30-10.13.06:136][854]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/AI/AP_EnemyAI] ([2] browsable assets)...
+[2023.05.30-10.13.06:374][854]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AI/AP_EnemyAI.AP_EnemyAI]
+[2023.05.30-10.13.06:375][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AP_EnemyAI]
+[2023.05.30-10.13.06:384][854]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/AP_EnemyAI_Auto3
+[2023.05.30-10.13.06:384][854]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/AP_EnemyAI_Auto3D8D445984C51B7EEC2297B9C586F4B60.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/Autosaves/Game/AI/AP_EnemyAI_Auto3.uasset'
+[2023.05.30-10.13.06:385][854]LogFileHelpers: Auto-saving content packages took 0.249
+[2023.05.30-10.13.20:563][936]LogSlate: Took 0.024056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.05.30-10.13.22:792][986]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.029515 seconds
+[2023.05.30-10.13.22:793][986]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2023.05.30-10.13.22:793][986]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2023.05.30-10.13.23:524][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.13.23:548][987]LogSlate: Took 0.002236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.30-10.13.23:559][987]LogSlate: Took 0.005519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.05.30-10.13.23:570][987]LogSlate: Took 0.010014 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.05.30-10.13.23:578][987]LogSlate: Took 0.001684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.30-10.13.23:583][987]LogSlate: Took 0.002247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.30-10.13.24:474][  7]LogSlate: Took 0.001133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.05.30-10.13.24:475][  7]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'አ (U+12a0)'
+[2023.05.30-10.13.24:497][  7]LogSlate: Took 0.021545 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.05.30-10.13.24:513][  7]LogSlate: Took 0.009986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2023.05.30-10.13.30:679][148]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.020575 seconds
+[2023.05.30-10.13.30:679][148]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2023.05.30-10.13.30:906][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.13.30:913][149]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.30-10.13.30:917][149]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.05.30-10.13.30:926][149]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.05.30-10.13.30:926][149]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.30-10.13.30:929][149]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.30-10.13.38:440][255]LogSlate: Window 'Editor Preferences' being destroyed
+[2023.05.30-10.13.38:490][255]LogSlate: Window 'Editor Preferences' being destroyed
+[2023.05.30-10.14.03:341][639]LogSlate: Took 0.001481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.05.30-10.15.30:636][149]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-10.15.30:777][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AP_EnemyAI" FILE="../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/AP_EnemyAI.uasset" SILENT=true
+[2023.05.30-10.15.30:785][149]LogSavePackage: Moving output files for package: /Game/AI/AP_EnemyAI
+[2023.05.30-10.15.30:786][149]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/AP_EnemyAICB4DBCBC4E8EFB616D4CD18C7CAAC5E4.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/AI/AP_EnemyAI.uasset'
+[2023.05.30-10.15.30:795][149]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 1.11 sec)
+[2023.05.30-10.15.30:805][149]AssetCheck: New page: Asset Save: AP_EnemyAI
+[2023.05.30-10.15.30:806][149]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/AI/AP_EnemyAI.AP_EnemyAI
+[2023.05.30-10.15.31:327][162]BlueprintLog: New page: Compile AP_EnemyAI
+[2023.05.30-10.15.31:422][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.05.30-10.15.35:895][234]LogSlate: Window 'AP_EnemyAI' being destroyed
+[2023.05.30-10.15.35:920][234]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.15.35:920][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.15.35:963][234]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.15.35:963][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.15.36:055][234]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.15.36:055][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.15.37:217][266]LogSlate: Took 0.001185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.30-10.15.45:685][479]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/P_EnemyAI.P_EnemyAI
+[2023.05.30-10.15.45:686][479]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.15.51:624][499]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2023.05.30-10.15.51:859][499]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.30-10.15.51:860][499]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.30-10.15.51:860][499]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.30-10.15.58:569][597]BlueprintLog: New page: Compile P_EnemyAI
+[2023.05.30-10.15.58:777][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.05.30-10.15.59:941][628]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-10.16.00:071][628]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/P_EnemyAI
+[2023.05.30-10.16.00:072][628]LogSavePackage: Moving '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Saved/P_EnemyAID82B1C57439646E8ED5F08848E5FF702.tmp' to '../../../../../../Users/andre/Documents/GitHub/Unreal-Level-LD/ComandoLevelLD/Commandos/Content/FirstPerson/Blueprints/P_EnemyAI.uasset'
+[2023.05.30-10.16.00:082][628]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 1.25 sec)
+[2023.05.30-10.16.00:088][628]AssetCheck: New page: Asset Save: P_EnemyAI
+[2023.05.30-10.16.00:088][628]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/P_EnemyAI.P_EnemyAI
+[2023.05.30-10.16.03:118][692]LogSlate: Window 'P_EnemyAI' being destroyed
+[2023.05.30-10.16.03:127][692]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.16.03:127][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.16.04:525][731]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.30-10.16.04:546][731]LogContentBundle: [Container: FirstPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.05.30-10.16.04:566][731]LogWorldPartition: Display: GenerateStreaming started...
+[2023.05.30-10.16.04:566][731]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.05.30-10.16.04:567][731]LogWorldPartition: Display: GetPartitionedActors took 1 ms (total: 1 ms)
+[2023.05.30-10.16.04:569][731]LogWorldPartition: Display: GenerateStreaming took 3 ms (total: 8 ms)
+[2023.05.30-10.16.04:582][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.30-10.16.04:592][731]PIE: New page: PIE session: FirstPersonMap (May 30, 2023, 2:16:04 PM)
+[2023.05.30-10.16.04:596][731]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.05.30-10.16.04:856][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.259945s)
+[2023.05.30-10.16.04:856][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.260293s)
+[2023.05.30-10.16.04:861][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-10.16.04:863][731]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.05.30-10.16.04:872][731]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.05.30-10.16.04:872][731]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.05.30-10.16.04:872][731]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.05.30-10.16.04:913][731]LogContentBundle: [Container: FirstPersonMap] Creating new contrainer.
+[2023.05.30-10.16.04:919][731]LogWorldPartition: Display: WorldPartition initialize took 47 ms (total: 2.36 sec)
+[2023.05.30-10.16.04:920][731]LogPlayLevel: PIE: World Init took: (0.062982s)
+[2023.05.30-10.16.04:953][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.05.30-10.16.04:975][731]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.05.30-10.16.04:979][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.30-10.16.04:979][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.30-10.16.04:979][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.30-10.16.04:980][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.30-10.16.04:980][731]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.30-10.16.04:980][731]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.30-10.16.04:980][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.30-10.16.04:981][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.30-10.16.04:985][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.30-10.16.04:985][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.30-10.16.04:985][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.30-10.16.04:995][731]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.30-10.16.05:021][731]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Scarlett Solo USB)
+[2023.05.30-10.16.05:029][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.30-10.16.05:029][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.30-10.16.05:030][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.30-10.16.05:036][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.05.30-10.16.05:037][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.05.30-10.16.05:040][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.05.30-10.16.05:040][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.05.30-10.16.05:041][731]LogInit: FAudioDevice initialized.
+[2023.05.30-10.16.05:041][731]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2023.05.30-10.16.05:062][731]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.05.30-10.16.05:312][731]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.05.30-12.16.05
+[2023.05.30-10.16.05:334][731]LogWorld: Bringing up level for play took: 0.271940
+[2023.05.30-10.16.05:353][731]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2023.05.30-10.16.05:399][731]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=102.123
+[2023.05.30-10.16.05:411][731]PIE: Server logged in
+[2023.05.30-10.16.05:413][731]PIE: Play in editor total start time 0.869 seconds.
+[2023.05.30-10.16.20:118][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.30-10.16.20:119][943]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.05.30-10.16.20:124][943]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-10.16.21:973][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.16.21:975][943]LogContentBundle: [Container: FirstPersonMap] Deleting container.
+[2023.05.30-10.16.22:001][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.30-10.16.22:013][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-10.16.22:055][943]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.30-10.16.22:061][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.05.30-10.16.22:068][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.05.30-10.16.22:084][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.30-10.16.22:124][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.05.30-10.16.22:219][944]LogPlayLevel: Display: Destroying online subsystem :Context_42
